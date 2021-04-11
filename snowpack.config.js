@@ -7,6 +7,8 @@ module.exports = {
   plugins: [
     '@snowpack/plugin-react-refresh',
     '@snowpack/plugin-dotenv',
+    '@snowpack/plugin-postcss',
+    '@jadex/snowpack-plugin-tailwindcss-jit',
     [
       '@snowpack/plugin-typescript',
       {
